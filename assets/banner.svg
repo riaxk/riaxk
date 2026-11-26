@@ -1,0 +1,56 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#26323e" stroke-width="0.7"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#243746"/>
+      <stop offset="100%" stop-color="#10151c"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="400" rx="10" fill="url(#glow)"/>
+  <rect width="1200" height="400" rx="10" fill="url(#grid)"/>
+
+  <g fill="none" stroke="#8ca9bf" stroke-width="2">
+    <path d="M30 75V30H75"/>
+    <path d="M1125 30H1170V75"/>
+    <path d="M30 325V370H75"/>
+    <path d="M1125 370H1170V325"/>
+  </g>
+
+  <g stroke="#526b80" fill="none" stroke-width="1.5">
+    <path d="M0 105H140L190 155H250"/>
+    <path d="M1200 295H1060L1010 245H950"/>
+  </g>
+
+  <circle cx="250" cy="155" r="4" fill="#a9cce3"/>
+  <circle cx="950" cy="245" r="4" fill="#a9cce3"/>
+
+  <text x="600" y="85" text-anchor="middle"
+        font-family="monospace" font-size="17"
+        letter-spacing="7" fill="#9cb9cf">
+    CYBERSECURITY PORTFOLIO
+  </text>
+
+  <text x="600" y="195" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="78"
+        font-weight="700" letter-spacing="11" fill="#edf4fa">
+    RIA KULKARNI
+  </text>
+
+  <path d="M475 225H725" stroke="#a9cce3" stroke-width="2"/>
+
+  <text x="600" y="275" text-anchor="middle"
+        font-family="monospace" font-size="23"
+        letter-spacing="4" fill="#a9cce3">
+    BUILD. BREAK. UNDERSTAND.
+  </text>
+
+  <text x="600" y="335" text-anchor="middle"
+        font-family="monospace" font-size="16"
+        letter-spacing="2" fill="#8294a5">
+    OFFENSIVE SECURITY / EXPLORING AI SECURITY
+  </text>
+</svg>
